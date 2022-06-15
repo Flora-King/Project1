@@ -1,9 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    background-color: aquamarine;
+    font-family: lato, sans-serif;
+    font-weight: 300;
 }
 
 h1, h2 {
-    font-family: lato, sans-serif;
+    font-family: Josefin-Sans, sans-serif;
+    color:rgb(41, 39, 50);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+
+}
+#nav-links {
+    letter-spacing: 4px;
+    font-size: 120%;
+}
+
+#nav-links li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+#nav-links li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 30px;
+
+}
+#nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
