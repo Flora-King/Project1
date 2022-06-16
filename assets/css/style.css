@@ -62,8 +62,17 @@ h1, h2 {
     border-bottom: 1px solid #efb7b7;
 }
 
+button {
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 136, 169, 0.8);
+    transition: all 0.8s ease-in-out;
+    color: azure;
+}
+
 #home-image {
-    height: 500px;
+    height: 800px;
     width: 100%;
     background: url('../images/pexels-alexander-dummer-134469.jpg');
     background-repeat: no-repeat;
@@ -138,7 +147,13 @@ h1, h2 {
     overflow: hidden;
 }
 
-
+#locations div {
+    color: whitesmoke;
+    background-color: rgba(0, 0, o, 0.8);
+    width: 33%;
+    height: 300px;
+    float: left;
+    }
 
 
 
@@ -157,6 +172,7 @@ footer{
     padding: 1%;
     margin: 1%;
     color:rgb(41, 39, 50);
+    font-weight: bold;
 }
 .social-media i {
     color:rgb(41, 39, 50);
