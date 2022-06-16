@@ -145,6 +145,7 @@ button {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #locations div {
@@ -153,9 +154,13 @@ button {
     width: 33%;
     height: 300px;
     float: left;
+    justify-content: space-between;
+    padding-left: 5px;
     }
 
-
+#locations h2 {
+    color: whitesmoke;
+}
 
 footer{
     height:200px;
