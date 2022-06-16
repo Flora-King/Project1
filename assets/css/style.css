@@ -129,7 +129,7 @@ h1, h2 {
 footer{
     height:200px;
     text-align: center;
-    background-color: rgba(196, 219, 212, 0.504);
+    background-color: rgba(241, 248, 246, 0.504);
 }
 .social-media {
     text-align: center;
@@ -140,5 +140,8 @@ footer{
     text-align: center;
     padding: 1%;
     margin: 1%;
+    color:rgb(41, 39, 50);
+}
+.social-media i {
     color:rgb(41, 39, 50);
 }
