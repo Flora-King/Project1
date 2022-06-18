@@ -63,12 +63,13 @@ h1, h2 {
 }
 
 button {
-    border-radius: 100px;
+    border-radius: 200px;
     border: none;
     cursor: pointer;
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(112, 116, 108, 0.8);
     transition: all 0.8s ease-in-out;
     color: azure;
+    padding: 10px 20px;
 }
 
 #home-image {
