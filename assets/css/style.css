@@ -159,20 +159,22 @@ button {
     margin: 0 auto;
 }
 
-#locations {
+/** locations and services section*/
+
+/*#locations {
     /*background: url('../images/pexels-alexander-dummer-134469.jpg');*/
    /* background-repeat: no-repeat;*/
     /*background-size: cover;*/
     /*background-position: center;*/
-    width: 100%;
+   /* width: 100%;
     overflow: hidden;
     position: relative;
     padding: 30px;
    border-width: 10px;
     
-}
+}*/
 
-#locations div {
+/*#locations div {
     color: rgb(33, 21, 21);
     background-color: rgba(0, 0, o, 0.8);
     width: 33%;
@@ -185,6 +187,28 @@ button {
 #locations h2 {
     color: rgb(28, 21, 21);
 }
+*/
+
+#locations,  #locations h2 {
+    text-align: center;
+}
+.locations-and-services-title h2 {
+    color: brown;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.area-code {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px 5%;
+}
+
 
 footer{
     height:200px;
