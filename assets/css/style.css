@@ -22,14 +22,14 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin-left: 60px;
+    font-size: 100%;
+    margin-left: 50px;
     padding-bottom: 50px;
     z-index: 1;
     position: fixed;
-    color:black;
+    color: white;
+    text-decoration: none;
  
-
 }
 #nav-links {
     letter-spacing: 4px;
@@ -91,6 +91,7 @@ button {
     background-size: cover;
     position: relative;
 }
+
 #service-image {
     height: 600px;
     width: 100%;
@@ -187,11 +188,12 @@ button {
 #locations h2 {
     color: rgb(28, 21, 21);
 }
+#locations,  #locations h2 {
+    text-align: justify;
+}
 */
 
-#locations,  #locations h2 {
-    text-align: center;
-}
+
 .locations-and-services-title h2 {
     color: brown;
     font-size: 1.5rem;
@@ -200,10 +202,10 @@ button {
 }
 
 .area-code {
-    flex-basis: 80%;
-    display: flex;
+    flex-basis: 100%;
+    display: inline-block;
     align-items: flex-start;
-    justify-content: center;
+    text-align: center;
     flex-direction: column;
     padding: 15px;
     margin: 10px 5%;
